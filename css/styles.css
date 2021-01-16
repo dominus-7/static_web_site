@@ -1,0 +1,65 @@
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+nav{
+    background-color: aqua;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: right;
+    padding: 6px;
+    font-size: larger;
+    transition: 0.5s all;
+    
+}
+
+nav ul li:hover a{
+    color: red;
+    font-size: large;
+    background-color: white;
+}
+
+#content div{
+    display: inline-block;
+    width: 48%;
+}
+
+.leftcontent{
+    background-color: red;
+    vertical-align: top ;
+}
+
+
+.rightcontent{
+    background-color: green;
+}
+
+#content div h2,p{
+    margin: 35px;
+}
+
+#content div iframe{
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+#content{
+    background-color: gray;
+}
+
+#content .annonce{
+    background-color: purple;
+    width: 100%;
+    margin: 8px;
+}
+
+.annonce img{
+    border-radius: 50%;
+}
+
+
